@@ -1,5 +1,5 @@
 # Tensorflow-implementation-of-Restricted-Boltzmann-Machine-including-GBRBM-BBRBM-
-The application of RBM through Matlab have several drawbacks. One serious problem is the computation time is very time-consuming. It is because that the matlab is difficult to run in cloud server.So I wrap the code of rbm based on matlab to python based on tensorflow. We can use jupyter notebook to run the code for training or inference quickly.
+The application of RBM through Matlab have several drawbacks. One serious problem is that the computation time is very time-consuming. It is because that the matlab is difficult to run in cloud server.So I wrap the code of rbm based on matlab to python based on tensorflow. We can use jupyter notebook to run the code for training or inference quickly.
 
 test application:
   import numpy as np
