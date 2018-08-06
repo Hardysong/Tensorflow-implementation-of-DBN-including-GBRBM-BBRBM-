@@ -3,12 +3,19 @@ The application of RBM through Matlab have several drawbacks. One serious proble
 
 # test RBM applications:
   import numpy as np
+  
   import tensorflow as tf
+  
   import os,sys
+  
   from rbm_py3 import rbm
+  
   import time
+  
   from matplotlib import pyplot as plt
+  
   from math import *
+  
   from tensorflow.examples.tutorials.mnist import input_data
 
   sess = tf.InteractiveSession()
@@ -40,17 +47,25 @@ The application of RBM through Matlab have several drawbacks. One serious proble
 
 # test DBN applications:
 import numpy as np
+
 import tensorflow as tf
+
 import os,sys
+
 from rbm_py3 import rbm
+
 import time
+
 from matplotlib import pyplot as plt
+
 from math import *
+
 from dbncreateopts import dbncreateopts
+
 from DBN import dbn
+
 from tensorflow.examples.tutorials.mnist import input_data
 
-# temp, for debug
 sess = tf.InteractiveSession()
 
 mnist = input_data.read_data_sets('MNIST_data',one_hot=True)
