@@ -26,7 +26,7 @@ class dbn(object):
         self._sizes = [n_in] + hidden_layers_sizes
         self.train_params = opts
         self.rbm_list = []
-        
+         
         for i in range(len(self._sizes)-1):
             exec("rbm_%d = rbm(self._sizes[i],\
                                self._sizes[i+1],\
